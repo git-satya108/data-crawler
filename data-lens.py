@@ -6,9 +6,6 @@ from pandasai.llm import OpenAI
 from dotenv import load_dotenv
 import ssl
 
-# Disable SSL verification if needed
-ssl._create_default_https_context = ssl._create_unverified_context
-
 # Load .env file to get OpenAI credentials
 load_dotenv()
 
